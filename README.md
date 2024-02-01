@@ -16,4 +16,5 @@ C# App with 2D perlin noise generation.
 
 Based on: https://habr.com/ru/articles/265775/
 
-![Uploading image.png…]()
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/e9ccd269-6004-45bc-b6c1-56e470557ab5)
+
