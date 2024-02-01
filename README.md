@@ -18,3 +18,9 @@ Based on: https://habr.com/ru/articles/265775/
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/e9ccd269-6004-45bc-b6c1-56e470557ab5)
 
+
+# algorithm-Brezenhem
+
+C# App with Brezenhem algorithm
+
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/37a849b1-c0a1-4118-9e2f-4214ec6c58f3)
