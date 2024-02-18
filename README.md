@@ -24,3 +24,10 @@ Based on: https://habr.com/ru/articles/265775/
 C# App with Brezenhem algorithm
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/37a849b1-c0a1-4118-9e2f-4214ec6c58f3)
+
+
+# Bilinear-Interpolation
+
+C# App with Bilinear interpolation algorithm
+
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/1165af5a-f9f7-4dcd-8533-b1862251e4df)
