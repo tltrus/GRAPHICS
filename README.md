@@ -19,6 +19,16 @@ Based on: https://habr.com/ru/articles/265775/
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/e9ccd269-6004-45bc-b6c1-56e470557ab5)
 
 
+# 2D Raycasting
+
+C# app with 2D Raycasting algorithm.
+
+Based on: https://www.youtube.com/watch?v=vYgIKn7iDH8
+
+https://youtu.be/6oELi6mzti0
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/be91001a-100a-428e-bf82-8c389e0243f8)
+
+
 # algorithm-Brezenhem
 
 C# App with Brezenhem algorithm
