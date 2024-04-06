@@ -49,6 +49,6 @@ C# Lightning algorithm
 
 Based on https://drilian.com/2009/02/25/lightning-bolts/
 
-My Youtube: 
+My Youtube: https://youtu.be/bcfwHQHY09o
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/36106cab-8c89-4014-bea5-817d08dfe7ef)
