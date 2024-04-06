@@ -41,3 +41,14 @@ C# App with Brezenhem algorithm
 C# App with Bilinear interpolation algorithm
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/1165af5a-f9f7-4dcd-8533-b1862251e4df)
+
+
+# Lightning
+
+C# Lightning algorithm
+
+Based on https://drilian.com/2009/02/25/lightning-bolts/
+
+My Youtube: 
+
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/36106cab-8c89-4014-bea5-817d08dfe7ef)
