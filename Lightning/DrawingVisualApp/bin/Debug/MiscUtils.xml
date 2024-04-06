@@ -1,0 +1,1570 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MiscUtils</name>
+    </assembly>
+    <members>
+        <member name="M:MiscUtils.PhysicsEngine.Polygone.#ctor(System.Int32)">
+            <summary>
+            Конструктор
+            </summary>
+            <param name="num_vertices">Количество вершин</param>
+        </member>
+        <member name="M:MiscUtils.PhysicsEngine.CollisionDetection.CircleVsCircle(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            CIRCLE vs CIRCLE
+            </summary>
+            <param name="c1x">Circle 1: X</param>
+            <param name="c1y">Circle 1: Y</param>
+            <param name="c1r">Circle 1: Radius</param>
+            <param name="c2x">Circle 2: X</param>
+            <param name="c2y">Circle 2: Y</param>
+            <param name="c2r">Circle 2: Radius</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.PhysicsEngine.CollisionDetection.LineVsPoint(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            LINE vs POINT
+            </summary>
+            <param name="x1"></param>
+            <param name="y1"></param>
+            <param name="x2"></param>
+            <param name="y2"></param>
+            <param name="px"></param>
+            <param name="py"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.PhysicsEngine.CollisionDetection.LineVsLine(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            LINE vs LINE
+            </summary>
+            <param name="x1"></param>
+            <param name="y1"></param>
+            <param name="x2"></param>
+            <param name="y2"></param>
+            <param name="x3"></param>
+            <param name="y3"></param>
+            <param name="x4"></param>
+            <param name="y4"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.PhysicsEngine.CollisionDetection.RectVsRect(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            RECTANGLE vs RECTANGLE
+            </summary>
+            <param name="r1x"></param>
+            <param name="r1y"></param>
+            <param name="r1w"></param>
+            <param name="r1h"></param>
+            <param name="r2x"></param>
+            <param name="r2y"></param>
+            <param name="r2w"></param>
+            <param name="r2h"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.PhysicsEngine.CollisionDetection.TriangleVsPoint(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            TRIANGLE vs POINT
+            </summary>
+            <param name="x1"></param>
+            <param name="y1"></param>
+            <param name="x2"></param>
+            <param name="y2"></param>
+            <param name="x3"></param>
+            <param name="y3"></param>
+            <param name="px"></param>
+            <param name="py"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MiscUtils.PhysicsEngine.Particle">
+            <summary>
+            -----------------------------------------------------------------
+            </summary>
+        </member>
+        <member name="T:MiscUtils.PhysicsEngine.CollisionDetection_">
+            <summary>
+            CollisionDetection
+            https://gamedevelopment.tutsplus.com/tutorials/how-to-create-a-custom-2d-physics-engine-the-basics-and-impulse-resolution--gamedev-6331
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Crypting.Crypto.EncryptStringAES(System.String,System.String)">
+            <summary>
+            Encrypt the given string using AES.  The string can be decrypted using 
+            DecryptStringAES().  The sharedSecret parameters must match.
+            </summary>
+            <param name="plainText">The text to encrypt.</param>
+            <param name="sharedSecret">A password used to generate a key for encryption.</param>
+        </member>
+        <member name="M:MiscUtils.Crypting.Crypto.DecryptStringAES(System.String,System.String)">
+            <summary>
+            Decrypt the given string.  Assumes the string was encrypted using 
+            EncryptStringAES(), using an identical sharedSecret.
+            </summary>
+            <param name="cipherText">The text to decrypt.</param>
+            <param name="sharedSecret">A password used to generate a key for decryption.</param>
+        </member>
+        <member name="T:MiscUtils.RandomExtensionMethods">
+            <summary>
+            Методы расширения для Random
+            </summary>
+        </member>
+        <member name="M:MiscUtils.RandomExtensionMethods.NextDoubleRange(System.Random,System.Double,System.Double)">
+            <summary>
+            Случайный выбор числа в диапазоне (мин, макс)
+            </summary>
+            <param name="random"></param>
+            <param name="minNumber">Минимальная граница</param>
+            <param name="maxNumber">Максимальная граница</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.RandomExtensionMethods.NextFloatRange(System.Random,System.Single,System.Single)">
+            <summary>
+            Случайный выбор числа в диапазоне (мин, макс)
+            </summary>
+            <param name="random"></param>
+            <param name="minNumber">Минимальная граница</param>
+            <param name="maxNumber">Максимальная граница</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.RandomExtensionMethods.NextArray``1(System.Random,``0[])">
+            <summary>
+            Выбор случайного элемента из массива
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="random"></param>
+            <param name="array"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.RandomExtensionMethods.NextGaussian1(System.Random,System.Double,System.Double)">
+            <summary>
+            Returns a random number fitting a Gaussian, or normal, distribution. Преобразование Бокса — Мюллера. Вариант 1
+            </summary>
+            <param name="random"></param>
+            <param name="mean"></param>
+            <param name="sd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.RandomExtensionMethods.NextGaussian2(System.Random,System.Double,System.Double)">
+            <summary>
+            Returns a random number fitting a Gaussian, or normal, distribution. Преобразование Бокса — Мюллера. Вариант 2
+            </summary>
+            <param name="mean">the mean</param>
+            <param name="sd">the standard deviation</param>
+            <returns>the random number</returns>
+        </member>
+        <member name="T:MiscUtils.ArrayExtensionMethods">
+            <summary>
+            
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:MiscUtils.ArrayExtensionMethods.ToList``1(``0[])" -->
+        <member name="M:MiscUtils.ArrayExtensionMethods.Shuffle``1(``0[])">
+            <summary>
+            Fisher-Yates shuffle. Перемешивание элементов массива
+            </summary>
+            <typeparam name="T">type</typeparam>
+            <param name="array">array</param>
+        </member>
+        <member name="M:MiscUtils.ArrayExtensionMethods.Mean(System.Double[])">
+            <summary>
+            Расчет среднего значения элементов массива
+            </summary>
+            <param name="array"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.ArrayExtensionMethods.Argmax(System.Double[])">
+            <summary>
+            Индекс максимального элемента
+            </summary>
+            <param name="array">Вектор</param>
+            <returns>Индекс максимального элемента</returns>
+        </member>
+        <member name="M:MiscUtils.ArrayExtensionMethods.Dot(System.Collections.Generic.List{System.Double},System.Collections.Generic.List{System.Double})">
+            <summary>
+            Скалярное произведение вектора на вектор
+            </summary>
+            <param name="array1">Вектор 1</param>
+            <param name="array2">Вектор 2 (на что умножается)</param>
+            <returns>Скалярная величина</returns>
+        </member>
+        <member name="M:MiscUtils.ArrayExtensionMethods.To2D(System.Double[],System.Int32)">
+            <summary>
+            Разбивка 1D вектора в 2D матрицу (квадратную)
+            </summary>
+            <param name="array">1D массив</param>
+            <param name="size">Размерность 2D матрицы, например 2 -> 2x2</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Grafics.Shape2D.Addition(MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Сложение вектора ко всем точкам фигуры
+            </summary>
+            <param name="v">вектор</param>
+        </member>
+        <member name="M:MiscUtils.Grafics.Coloring.LerpColor(System.Windows.Media.Color,System.Windows.Media.Color,System.Single)">
+            <summary>
+            Blends two colors to find a third color somewhere between them
+            </summary>
+            <param name="start">interpolate from this color</param>
+            <param name="stop">interpolate to this color</param>
+            <param name="amt">amt number between 0 and 1</param>
+            <returns>interpolated color</returns>
+        </member>
+        <member name="M:MiscUtils.Grafics.Coloring.LerpRGB(System.Windows.Media.Color,System.Windows.Media.Color,System.Single)">
+            <summary>
+            Цветовая интерполяция
+            </summary>
+            <param name="a">начальный цвет</param>
+            <param name="b">конечный цвет</param>
+            <param name="t">параметр между 0 и 1.0</param>
+            <returns>Новый цвет</returns>
+        </member>
+        <member name="T:MiscUtils.Grafics.Coloring.ColorRGB">
+            <summary>
+            Структура
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Grafics.Coloring.HSL2RGB(System.Double,System.Double,System.Double)">
+            <summary>
+            HSL to RGB
+            Пример: var hsl = HSL.HSL2RGB(hu/360, 0.5, 0.5);
+            </summary>
+            <param name="h">тон (hue). Обязательно делится на 360</param>
+            <param name="sl">насыщенность (saturation)</param>
+            <param name="l">светлота (lightness)</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.IO.Files.FileRead(System.String)">
+            <summary>
+            Чтение файла с данными
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.IO.Files.SaveToFile(System.String,System.String[])">
+            <summary>
+            Функция сохранения сетки в файл
+            </summary>
+        </member>
+        <member name="T:MiscUtils.Matrix.MatrixBase">
+            <summary>
+            Базовый класс
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Matrix.MatrixBase.Create(System.Int32,System.Int32)">
+            <summary>
+            Создание матрицы
+            </summary>
+            <param name="rows">Количество строк</param>
+            <param name="cols">Количество столбцов</param>
+            <returns>Новая матрица</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.MatrixBase.FillRandoms(System.Double[0:,0:])">
+            <summary>
+            
+            </summary>
+            <param name="m"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.MatrixBase.Copy``1(``0[0:,0:])">
+            <summary>
+            Создание копии матрицы вида double[,]
+            </summary>
+            <param name="matrix">Копируемая матрица</param>
+            <returns>Новая матрица</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.MatrixBase.Mult(System.Double[0:,0:],System.Double[0:,0:])">
+            <summary>
+            Умножение двух матриц
+            </summary>
+            <param name="matrixA">Первая матрица</param>
+            <param name="matrixB">Вторая матрица</param>
+            <returns>Новая матрица</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.MatrixBase.Mult(System.Double[],System.Double[0:,0:])">
+            <summary>
+            Умножение вектора-строки на двумерную матрицу
+            </summary>
+            <param name="vector">Вектор-строка</param>
+            <param name="matrixA">Двумерная матрица</param>
+            <returns>Новый вектор-строка</returns>
+        </member>
+        <member name="T:MiscUtils.Matrix.Matrix">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix.Identity(System.Int32)">
+            <summary>
+            Создание единичной квадратной матрицы double[,]
+            </summary>
+            <param name="n">Количество строк и столбцов</param>
+            <returns>Новая матрица</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix.T``1(``0[])">
+            <summary>
+            Транспонирование ОДНОМЕРНОГО массива
+            </summary>
+            <param name="m"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MiscUtils.Matrix.Matrix2D">
+            <summary>
+            Класс для 2D матричных трансформаций
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix2D.#ctor">
+            <summary>
+            Конструктор класса
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix2D.Create">
+            <summary>
+            Создание пустой 2D матрицы (3х3) типа double[,]
+            </summary>
+            <returns>Новая матрица</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix2D.ToArray">
+            <summary>
+            Конвертация в двумерный масиив double[3,3]
+            </summary>
+            <returns>Двумерный массив double[3,3]</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix2D.ToString">
+            <summary>
+            Текстовый вид матрицы
+            </summary>
+            <returns>Строка</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix2D.FullTransform(System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Матрица 2D трансформации: rotation + scale + offset
+            </summary>
+            <param name="angle">Угол поворота в градусах</param>
+            <param name="scaleX">Растяжение по X</param>
+            <param name="scaleY">Растяжение по Y</param>
+            <param name="offsX">Смещение по Х</param>
+            <param name="offsY">Смещение по Y</param>
+            <returns>Результирующая матрица</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix2D.CreateFullTransform(System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Матрица 2D трансформации: rotation + scale + offset
+            </summary>
+            <param name="angle">Угол поворота в градусах</param>
+            <param name="scaleX">Растяжение по X</param>
+            <param name="scaleY">Растяжение по Y</param>
+            <param name="offsX">Смещение по Х</param>
+            <param name="offsY">Смещение по Y</param>
+            <returns>Результирующая матрица</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix2D.Rotate(System.Double)">
+            <summary>
+            Вращение матрицы 2D
+            </summary>
+            <param name="angle">Угол поворота в градусах</param>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix2D.CreateRotation(System.Double)">
+            <summary>
+            Вращение матрицы 2D
+            </summary>
+            <param name="angle">Угол поворота в градусах</param>
+            <returns>Новая матрица поворота</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix2D.Scale(System.Double,System.Double)">
+            <summary>
+            Матрица растяжения 2D
+            </summary>
+            <param name="Sx">X</param>
+            <param name="Sy">Y</param>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix2D.CreateScale(System.Double,System.Double)">
+            <summary>
+            Матрица растяжения 2D
+            </summary>
+            <param name="Sx">X</param>
+            <param name="Sy">Y</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix2D.Translate(System.Double,System.Double)">
+            <summary>
+            Матрица перемещения 2D
+            </summary>
+            <param name="Tx">X</param>
+            <param name="Ty">Y</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix2D.CreateTranslation(System.Double,System.Double)">
+            <summary>
+            Матрица перемещения 2D
+            </summary>
+            <param name="Tx">X</param>
+            <param name="Ty">Y</param>
+            <returns></returns>
+        </member>
+        <member name="T:MiscUtils.Matrix.Matrix3D">
+            <summary>
+            Класс для 3D матричных трансформаций
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix3D.#ctor">
+            <summary>
+            Конструктор
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix3D.Create">
+            <summary>
+            Создание пустой матрицы double[4,4]
+            </summary>
+            <returns>Новая матрица</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix3D.ToArray">
+            <summary>
+            Преобразование матрицы в массив double[4,4]
+            </summary>
+            <returns>Новая матрица</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix3D.ToString">
+            <summary>
+            Текстовый вид матрицы
+            </summary>
+            <returns>Строка</returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix3D.CreateRotation(System.Double,System.Double,System.Double)">
+            <summary>
+            Создание 3D матрицы вращения
+            </summary>
+            <param name="xa">Вращение вокруг оси Х</param>
+            <param name="ya">Вращение вокруг оси Y</param>
+            <param name="za">Вращение вокруг оси Z</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix3D.CreateRotation(System.Collections.Generic.List{System.Double[]},System.Double,System.Double,System.Double)">
+            <summary>
+            Вращение векторов в списке
+            </summary>
+            <param name="v">Список векторов, которые будут вращаться</param>
+            <param name="xa">Вращение вокруг оси Х</param>
+            <param name="ya">Вращение вокруг оси Y</param>
+            <param name="za">Вращение вокруг оси Z</param>
+        </member>
+        <member name="M:MiscUtils.Matrix.Matrix3D.CreateRotation(System.Double[],System.Double,System.Double,System.Double)">
+            <summary>
+            Вращение вектора
+            </summary>
+            <param name="v">Вектор, который будет вращаться</param>
+            <param name="xa">Вращение вокруг оси Х</param>
+            <param name="ya">Вращение вокруг оси Y</param>
+            <param name="za">Вращение вокруг оси Z</param>
+        </member>
+        <member name="M:MiscUtils.MyMatrix.Map(System.Action{System.Int32,System.Int32})">
+            <summary>
+            
+            </summary>
+            <param name="func"></param>
+        </member>
+        <member name="P:MiscUtils.MyMatrix.Item(System.Int32,System.Int32)">
+            <summary>
+            Индексатор матрицы 2D
+            </summary>
+            <param name="y"></param>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MiscUtils.MyMatrix.Item(System.Int32)">
+            <summary>
+            Индексатор матрицы 1D
+            </summary>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.MyMatrix.Randomize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MiscUtils.MyMatrix.CreateIdentityMatrix(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.MyMatrix.Log(MiscUtils.MyMatrix)">
+            <summary>
+            Вычисление логарифма каждого элемента матрицы
+            </summary>
+        </member>
+        <member name="M:MiscUtils.MyMatrix.T">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.MyMatrix.FromArray(System.Double[])">
+            <summary>
+            Конвертация массива в матричный вектор-столбец
+            </summary>
+            <param name="m">Одномерный массив</param>
+            <returns>Матрица в виде вектора-столбца</returns>
+        </member>
+        <member name="M:MiscUtils.MyMatrix.ToArray">
+            <summary>
+            Конвертация матрицы в вектор-столбец
+            </summary>
+            <returns>Вектор-столбец</returns>
+        </member>
+        <member name="T:MiscUtils.NeuroNetwork.NN_11">
+            <summary>
+            Многослойная сеть из Coding Train.
+            Для отладки нескольких скрытых слоев
+            </summary>
+        </member>
+        <member name="T:MiscUtils.NeuroNetwork.NN_22">
+            <summary>
+            Многослойная сеть из книги Тима Джонса.
+            Для отладки нескольких скрытых слоев
+            </summary>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_22.AssignRandomWeights">
+            <summary>
+            Assign a set of random weights to the network
+            </summary>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_22.FeedForward">
+            <summary>
+            Feedforward the inputs of the neural network to the outputs
+            </summary>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_22.Sigmoid(System.Double)">
+            <summary>
+            Calculate and return the sigmoid of the val argument
+            </summary>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_22.SigmoidDerivative(System.Double)">
+            <summary>
+            Calculate and return the derivative of the sigmoid for the val argument
+            </summary>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_22.BackPropagate">
+            <summary>
+            Backpropagate the error through the network
+            </summary>
+        </member>
+        <member name="T:MiscUtils.NeuroNetwork.NN_1">
+            <summary>
+            Многослойная сеть из Coding Train.
+            Допускается несколько скрытых слоев
+            </summary>
+        </member>
+        <member name="T:MiscUtils.NeuroNetwork.NN_2">
+            <summary>
+            Многослойная сеть из книги Тима Джонса.
+            Допускается несколько скрытых слоев
+            </summary>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_2.#ctor(System.Int32,System.Int32[],System.Int32)">
+            <summary>
+            Нейронная сеть
+            </summary>
+            <param name="input_neurons">количество нейронов входного слоя</param>
+            <param name="hidden_neurons">количество нейронов для каждого скрытого слоя</param>
+            <param name="output_neurons">количество нейронов выходного слоя</param>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_2.AssignRandomWeights">
+            <summary>
+            Assign a set of random weights to the network
+            </summary>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_2.FeedForward">
+            <summary>
+            Feedforward the inputs of the neural network to the outputs
+            </summary>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_2.Sigmoid(System.Double)">
+            <summary>
+            Calculate and return the sigmoid of the val argument
+            </summary>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_2.SigmoidDerivative(System.Double)">
+            <summary>
+            Calculate and return the derivative of the sigmoid for the val argument
+            </summary>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_2.BackPropagate">
+            <summary>
+            Backpropagate the error through the network
+            </summary>
+        </member>
+        <member name="T:MiscUtils.NeuroNetwork.NN_CodingTrain">
+            <summary>
+            Многослойная сеть из Coding Train. Оригинал.
+            С тремя слоями: входа - скрытый - выхода
+            </summary>
+        </member>
+        <member name="T:MiscUtils.NeuroNetwork.NN_TimDjons">
+            <summary>
+            Многослойная сеть из книги Тима Джонса. Оригинал.
+            С тремя слоями: входа - скрытый - выхода
+            </summary>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_TimDjons.AssignRandomWeights">
+            <summary>
+            Assign a set of random weights to the network
+            </summary>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_TimDjons.FeedForward">
+            <summary>
+            Feedforward the inputs of the neural network to the outputs
+            </summary>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_TimDjons.Sigmoid(System.Double)">
+            <summary>
+            Calculate and return the sigmoid of the val argument
+            </summary>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_TimDjons.SigmoidDerivative(System.Double)">
+            <summary>
+            Calculate and return the derivative of the sigmoid for the val argument
+            </summary>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.NeuroNetwork.NN_TimDjons.BackPropagate">
+            <summary>
+            Backpropagate the error through the network
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Numerics.Numerics.Constrain(System.Double,System.Double,System.Double)">
+            <summary>
+            Constrains a value between a minimum and maximum value
+            </summary>
+            <param name="n">number to constrain</param>
+            <param name="low">low minimum limit</param>
+            <param name="high">high maximum limit</param>
+            <returns>constrained number</returns>
+        </member>
+        <member name="M:MiscUtils.Numerics.Numerics.Map(System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean)">
+            <summary>
+            Re-maps a number from one range to another
+            </summary>
+            <param name="n">value  the incoming value to be converted</param>
+            <param name="start1">start1 lower bound of the value's current range</param>
+            <param name="stop1">stop1  upper bound of the value's current range</param>
+            <param name="start2">start2 lower bound of the value's target range</param>
+            <param name="stop2">stop2  upper bound of the value's target range</param>
+            <param name="withinBounds">[withinBounds] constrain the value to the newly mapped range</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Numerics.Numerics.Map``1(``0[],MiscUtils.Numerics.Numerics.MapDelegate{``0})">
+            <summary>
+            Обработка массива передаваемым в Map методом 
+            </summary>
+            <param name="array">Массив</param>
+            <param name="func">Делегат метода</param>
+            <returns>Возвращает новый массив</returns>
+        </member>
+        <member name="M:MiscUtils.Numerics.Numerics.Range(System.Double,System.Double,System.Double)">
+            <summary>
+            Вывод числа от 0 до 1 в необходимый диапазон
+            </summary>
+            <param name="val">переменная</param>
+            <param name="min">начальный диапазон</param>
+            <param name="max">конечный диапазон</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Numerics.Numerics.Normalize(System.Double)">
+            <summary>
+            Нормализация числа [-1, 1] в [0, 1]
+            </summary>
+            <param name="x">число от -1 до 1</param>
+            <returns>число от 0 до 1</returns>
+        </member>
+        <member name="M:MiscUtils.Numerics.Numerics.Dist(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Вычисление расстояния между точками
+            </summary>
+            <param name="x1"></param>
+            <param name="y1"></param>
+            <param name="x2"></param>
+            <param name="y2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Numerics.Numerics.Swap``1(``0@,``0@)">
+            <summary>
+            Аналог функции SWAP в C++, замена аргументов местами
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="v1"></param>
+            <param name="v2"></param>
+        </member>
+        <member name="M:MiscUtils.Numerics.Numerics.Swap``1(``0[0:,0:]@,``0[0:,0:]@)">
+            <summary>
+            Замена аргументов местами
+            </summary>
+            <param name="matrixA">массив 1</param>
+            <param name="matrixB">массив 2</param>
+        </member>
+        <member name="M:MiscUtils.Numerics.Numerics.Swap``1(``0[]@,``0[]@)">
+            <summary>
+            
+            </summary>
+            <param name="matrixA"></param>
+            <param name="matrixB"></param>
+        </member>
+        <member name="M:MiscUtils.Numerics.Numerics.Lerp(System.Double,System.Double,System.Double)">
+            <summary>
+            Линейная интерполяция
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <param name="t"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MiscUtils.Numerics.Perlin2D">
+            <summary>
+            /
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Numerics.Perlin2D.GetPseudoRandomGradientVector(System.Int32,System.Int32)">
+            <summary>
+            хэш-функция с Простыми числами, обрезкой результата до размера массива со случайными байтами
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Numerics.Perlin2D.Dot(System.Double[],System.Double[])">
+            <summary>
+            Скалярное произведение векторов
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Numerics.Perlin2D.Noise(System.Double,System.Double)">
+            <summary>
+            Главный метод
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Конструктор
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.Mag">
+            <summary>
+            Магнитуда (длина) кватерниона
+            </summary>
+            <returns>Возвращает скаляр длины</returns>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.Normalize">
+            <summary>
+            Нормализация текущего кватерниона
+            </summary>
+            <returns>Возвращает новый кватернион и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.Normalize(MiscUtils.Quaternion.Quaternion)">
+            <summary>
+            Нормализация кватерниона
+            </summary>
+            <param name="quat"></param>
+            <returns>Возвращает новый кватернион</returns>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.isNormalized">
+            <summary>
+            Проверка на нормализацию кватерниона
+            </summary>
+            <returns>True - нормализован, False - не нормализован</returns>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.Invert">
+            <summary>
+            Инвертирование текущего кватерниона
+            </summary>
+            <returns>Возвращает новый кватернион и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.ToMatrix">
+            <summary>
+            Конвертация кватерниона в матрицу
+            </summary>
+            <returns>Двумерный массив вида [,]</returns>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.MatrixToQuaternion(System.Double[0:,0:])">
+            <summary>
+            Конвертация матрицы в кватернион
+            </summary>
+            <param name="m">Двумерный массив</param>
+            <returns>Новый кватернион</returns>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.Rotate(MiscUtils.Quaternion.Quaternion,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Умножение кватерниона на вектор. Позволяет повернуть вектор на вращение заданное, кватернионом
+            </summary>
+            <param name="q">Кватернион</param>
+            <param name="v">Вектор</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.Multiply(MiscUtils.Quaternion.Quaternion)">
+            <summary>
+            Умножение на кватернион
+            </summary>
+            <param name="q"></param>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.Multiply(MiscUtils.Quaternion.Quaternion,MiscUtils.Quaternion.Quaternion)">
+            <summary>
+            Умножение двух кватернионов
+            </summary>
+            <param name="q1">Кватернион 1</param>
+            <param name="q2">Кватернион 2</param>
+            <returns>Новый кватернион</returns>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.FromAxisAngle(MiscUtils.Vectors.Vector3D,System.Double)">
+            <summary>
+            Получение кватерниона из углов Эйлера для одной оси
+            </summary>
+            <param name="v">Вектор, вокруг которого происходит вращение</param>
+            <param name="angle">Угол</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.FromEulerFull(System.Double,System.Double,System.Double)">
+            <summary>
+            Получение кватерниона из углов Эйлера для трех осей
+            </summary>
+            <param name="roll">X угол в рад.</param>
+            <param name="pitch">Y угол в рад.</param>
+            <param name="yaw">Z угол в рад.</param>
+            <returns>Новый кватернион</returns>
+        </member>
+        <member name="M:MiscUtils.Quaternion.Quaternion.op_Multiply(MiscUtils.Quaternion.Quaternion,MiscUtils.Quaternion.Quaternion)">
+            <summary>
+            Умножение кватернионов
+            </summary>
+            <param name="q1"></param>
+            <param name="q2"></param>
+            <returns>Новый кватернион</returns>
+        </member>
+        <member name="M:MiscUtils.Randoms.FYShuffle``1(``0[])">
+            <summary>
+            Fisher–Yates shuffle. Перемешивание текущего массива
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Randoms.FYPermutation``1(``0[])">
+            <summary>
+            Fisher–Yates shuffle. Перемешивание массива
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="array"></param>
+            <returns>Возвращает новый перемешанный массив</returns>
+        </member>
+        <member name="M:MiscUtils.Randoms.FYPermutation(System.Int32)">
+            <summary>
+            Fisher–Yates shuffle. Создание перемешанного массива по указанному размеру
+            </summary>
+            <param name="n">Размер массива</param>
+            <returns>Возвращает новый перемешанный массив указанной длины</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.CopyToVector">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Set(System.Double,System.Double,System.Double)">
+            <summary>
+            Присвоение скалярных значений вектору
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="z"></param>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.ToString">
+            <summary>
+            Текстовое представление вектора 
+            </summary>
+            <returns>Строка вида "[x, y, z]"</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.ToConsole">
+            <summary>
+            Вывод значений вектора на консоль вида "[x, y, z]"
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Add(System.Double,System.Double,System.Double)">
+            <summary>
+            Сложение вектора со скалярами
+            </summary>
+            <param name="vector"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Add(MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Сложение двух векторов
+            </summary>
+            <param name="v"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Add(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Сложение двух векторов
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Sub(System.Double,System.Double,System.Double)">
+            <summary>
+            Вычитание из вектора скаляров
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Sub(MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Вычитание из вектора другого вектора
+            </summary>
+            <param name="v"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Sub(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Вычитание двух векторов
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Div(System.Double)">
+            <summary>
+            Деление вектора на скаляр
+            </summary>
+            <param name="n"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Div(MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Деление вектора на другой вектор
+            </summary>
+            <param name="v"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Div(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Divide (деление) двух векторов
+            </summary>
+            <param name="val"></param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Div(MiscUtils.Vectors.Vector3D,System.Double)">
+            <summary>
+            Деление вектора на скаляр
+            </summary>
+            <param name="v">Вектор</param>
+            <param name="n">Скаляр</param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Mult(System.Double)">
+            <summary>
+            Multiply (умножение) вектора на число
+            </summary>
+            <param name="n"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Mult(MiscUtils.Vectors.Vector3D,System.Double)">
+            <summary>
+            Multiply (умножение) вектора на число
+            </summary>
+            <param name="v"></param>
+            <param name="n"></param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Dot(MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Скалярное (Dot) умножение векторов
+            </summary>
+            <param name="v"></param>
+            <returns>Скаляр</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Dot(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Скалярное произведение векторов
+            </summary>
+            <param name="v1">Вектор 1</param>
+            <param name="v2">Вектор 2</param>
+            <returns>Скаляр</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Cross(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Векторное произведение двух векторов
+            </summary>
+            <param name="v1">Вектор 1</param>
+            <param name="v2">Вектор 2</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Project(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            
+            </summary>
+            <param name="v"></param>
+            <param name="onto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Lerp(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Интерполяция вектора к другому вектору
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="amt">Value between 0.0 (old vector) and 1.0 (new vector). 0.9 is very near the new vector. 0.5 is halfway in between</param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Lerp(MiscUtils.Vectors.Vector3D,System.Double)">
+            <summary>
+            Интерполяция вектора к другому вектору
+            </summary>
+            <param name="v"></param>
+            <param name="amt">Value between 0.0 (old vector) and 1.0 (new vector). 0.9 is very near the new vector. 0.5 is halfway in between</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Lerp(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D,System.Double)">
+            <summary>
+            Интерполяция вектора к другому вектору
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <param name="amt">Value between 0.0 (old vector) and 1.0 (new vector). 0.9 is very near the new vector. 0.5 is halfway in between</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.angleBetween(MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Вычисление угла между двумя векторами
+            </summary>
+            <param name="v"></param>
+            <returns>Возвращает угол в радианах</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.MagSq">
+            <summary>
+            Получение квадрата длины вектора
+            </summary>
+            <returns>Скаляр</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Limit(System.Double)">
+            <summary>
+            Ограничение (Limit) длины вектора до max значения
+            </summary>
+            <param name="max">Требуемая максимальная длина вектора</param>
+            <returns>Вектор с лимитированной длиной</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Mag">
+            <summary>
+            Вычисление длины вектора
+            </summary>
+            <returns>Скаляр</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Normalize">
+            <summary>
+            Нормализация вектора
+            </summary>
+            <returns>Вектор единичной длины</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.SetMag(System.Int32)">
+            <summary>
+            Задание длины вектора
+            </summary>
+            <param name="n">целочисленная длина</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.SetMag(System.Double)">
+            <summary>
+            Задание длины вектора
+            </summary>
+            <param name="n">вещественная длина</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.FromAngles(System.Double,System.Double,System.Double)">
+            <summary>
+            Создание 3D вектора по паре углов
+            </summary>
+            <param name="theta">the polar angle, in radians</param>
+            <param name="phi">the azimuthal angle, in radians</param>
+            <param name="len">Длина вектора. По умолчанию длина = 1</param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Random3D(System.Random)">
+            <summary>
+            Создание единичного 3D вектора по случайному углу 2PI
+            </summary>
+            <param name="rnd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Dist(MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Вычисление расстояния между векторами
+            </summary>
+            <param name="v"></param>
+            <returns>Cкаляр</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.Dist(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Вычисление расстояния между двумя векторами
+            </summary>
+            <param name="v1">Вектор 1</param>
+            <param name="v2">Вектор 2</param>
+            <returns>Cкаляр</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.op_Addition(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Adds two vectors together
+            </summary>
+            <param name="left">Вектор 1</param>
+            <param name="right">Вектор 2</param>
+            <returns>Новый суммированный вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.op_UnaryNegation(MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Изменение вектора на негативный
+            </summary>
+            <param name="v">Вектор</param>
+            <returns>Новый отрицательный вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.op_Subtraction(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Разность векторов
+            </summary>
+            <param name="left">Вектор 1</param>
+            <param name="right">Вектор 2</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.op_Multiply(System.Double,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Умножение скаляра на вектор
+            </summary>
+            <param name="left">Скаляр</param>
+            <param name="right">Вектор</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.op_Multiply(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Умножение пар элементов обоих векторов
+            </summary>
+            <param name="left">Вектор 1</param>
+            <param name="right">Вектор 2</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.op_Multiply(MiscUtils.Vectors.Vector3D,System.Double)">
+            <summary>
+            Умножение вектора на скаляр
+            </summary>
+            <param name="left">Вектор</param>
+            <param name="right">Скаляр</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.op_Division(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Деление первого вектора на второй вектор
+            </summary>
+            <param name="left">Вектор 1</param>
+            <param name="right">Вектор 2</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.op_Division(MiscUtils.Vectors.Vector3D,System.Double)">
+            <summary>
+            Деление вектора на скаляр
+            </summary>
+            <param name="value1">Вектор</param>
+            <param name="value2">Скаляр</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.op_Equality(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Returns a value that indicates whether each pair of elements in two specified vectors is equal.
+            </summary>
+            <param name="left">Вектор 1</param>
+            <param name="right">Вектор 2</param>
+            <returns>true if left and right are equal; otherwise, false.</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector3D.op_Inequality(MiscUtils.Vectors.Vector3D,MiscUtils.Vectors.Vector3D)">
+            <summary>
+            Returns a value that indicates whether two specified vectors are not equal.
+            </summary>
+            <param name="left">Вектор 1</param>
+            <param name="right">Вектор 2</param>
+            <returns>true if left and right are not equal; otherwise, false.</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.CopyToVector">
+            <summary>
+            Копирование вектора
+            </summary>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.CopyToArray">
+            <summary>
+            Копирование вектора в массив
+            </summary>
+            <returns>Новый массив [x, y]</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Set(System.Double,System.Double)">
+            <summary>
+            Присвоение скалярных значений вектору
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.ToString">
+            <summary>
+            Текстовое представление вектора 
+            </summary>
+            <returns>Строка вида "[x, y]"</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.ToConsole">
+            <summary>
+            Вывод значений вектора на консоль вида "[x, y]"
+            </summary>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Add(System.Double,System.Double)">
+            <summary>
+            Сложение вектора со скалярами
+            </summary>
+            <param name="vector"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Add(System.Double)">
+            <summary>
+            Сложение вектора со скаляром
+            </summary>
+            <param name="value"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Add(MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Сложение двух векторов
+            </summary>
+            <param name="v"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Add(MiscUtils.Vectors.Vector2D,MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Сложение двух векторов
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Sub(System.Double,System.Double)">
+            <summary>
+            Вычитание из вектора скаляров
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Sub(MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Вычитание из вектора другого вектора
+            </summary>
+            <param name="v"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Sub(MiscUtils.Vectors.Vector2D,MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Вычитание двух векторов
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Div(System.Double)">
+            <summary>
+            Деление вектора на скаляр
+            </summary>
+            <param name="n"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Div(MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Деление вектора на другой вектор
+            </summary>
+            <param name="v"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Div(MiscUtils.Vectors.Vector2D,MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Divide (деление) двух векторов
+            </summary>
+            <param name="val"></param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Div(MiscUtils.Vectors.Vector2D,System.Double)">
+            <summary>
+            Деление вектора на скаляр
+            </summary>
+            <param name="v">Вектор</param>
+            <param name="n">Скаляр</param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Mult(System.Double)">
+            <summary>
+            Multiply (умножение) вектора на число
+            </summary>
+            <param name="n"></param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Mult(MiscUtils.Vectors.Vector2D,System.Double)">
+            <summary>
+            Multiply (умножение) вектора на число
+            </summary>
+            <param name="v"></param>
+            <param name="n"></param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Dot(MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Скалярное (Dot) умножение векторов
+            </summary>
+            <param name="v"></param>
+            <returns>Скаляр</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Dot(MiscUtils.Vectors.Vector2D,MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Скалярное (Dot) умножение векторов
+            </summary>
+            <param name="v1">Вектор 1</param>
+            <param name="v2">Вектор 2</param>
+            <returns>Скаляр двоичное число</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Cross(MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Векторное произведение векторов. Для 2D результат всегда скаляр, т.к. z = 0
+            </summary>
+            <param name="v"></param>
+            <returns>Скаляр</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Lerp(System.Double,System.Double,System.Double)">
+            <summary>
+            Интерполяция вектора к другому вектору
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="amt">Value between 0.0 (old vector) and 1.0 (new vector). 0.9 is very near the new vector. 0.5 is halfway in between</param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Lerp(MiscUtils.Vectors.Vector2D,System.Double)">
+            <summary>
+            Интерполяция вектора к другому вектору
+            </summary>
+            <param name="v"></param>
+            <param name="amt">Value between 0.0 (old vector) and 1.0 (new vector). 0.9 is very near the new vector. 0.5 is halfway in between</param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Lerp(MiscUtils.Vectors.Vector2D,MiscUtils.Vectors.Vector2D,System.Double)">
+            <summary>
+            Интерполяция вектора к другому вектору
+            </summary>
+            <param name="v1"></param>
+            <param name="v2"></param>
+            <param name="amt">Value between 0.0 (old vector) and 1.0 (new vector). 0.9 is very near the new vector. 0.5 is halfway in between</param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.HeadingRad">
+            <summary>
+            Возвращает угол вектора (only 2D vectors)
+            </summary>
+            <returns>Значение угла в радианах</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.HeadingDeg">
+            <summary>
+            Возвращает угол вектора (only 2D vectors)
+            </summary>
+            <returns>Значение угла в градусах [от 0 до 359]</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.angleBetween(MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Вычисление угла между двумя векторами
+            </summary>
+            <param name="v"></param>
+            <returns>Возвращает угол в радианах</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Rotate(System.Double)">
+            <summary>
+            Поворот вектора на заданный угол (only 2D vectors)
+            </summary>
+            <param name="a">Угол в радианах</param>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.MagSq">
+            <summary>
+            Получение квадрата длины вектора
+            </summary>
+            <returns>Скаляр</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Mag">
+            <summary>
+            Вычисление длины вектора
+            </summary>
+            <returns>Скаляр</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.SetMag(System.Double)">
+            <summary>
+            Задание длины вектора
+            </summary>
+            <param name="n">вещественная длина</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.SetMag(System.Int32)">
+            <summary>
+            Задание длины вектора
+            </summary>
+            <param name="n">целочисленная длина</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Normalize">
+            <summary>
+            Нормализация вектора
+            </summary>
+            <returns>Возвращает новый вектор и изменяет текущий</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Limit(System.Double)">
+            <summary>
+            Ограничение (Limit) длины вектора до max значения
+            </summary>
+            <param name="max">Требуемая максимальная длина вектора</param>
+            <returns>Вектор с лимитированной длиной</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.FromAngle(System.Double,System.Double)">
+            <summary>
+            Создание вектора по углу
+            </summary>
+            <param name="angle">Угол в радианах</param>
+            <param name="len">Длина вектора. По умолчанию длина = 1</param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Random2D(System.Random)">
+            <summary>
+            Создание единичного 2D вектора по случайному углу 2PI
+            </summary>
+            <param name="rnd"></param>
+            <returns>Возвращает новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Random2D(System.Random,System.Double,System.Double)">
+            <summary>
+            Создание единичного 2D вектора по углу в диапазоне
+            </summary>
+            <param name="rnd"></param>
+            <param name="start">Угол От</param>
+            <param name="end">Угод До</param>
+            <returns></returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Dist(MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Вычисление расстояния между векторами
+            </summary>
+            <param name="v"></param>
+            <returns>Cкаляр</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.Dist(MiscUtils.Vectors.Vector2D,MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Вычисление расстояния между двумя векторами
+            </summary>
+            <param name="v1">Вектор 1</param>
+            <param name="v2">Вектор 2</param>
+            <returns>Cкаляр</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.NormalVector(MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Вычисление перпендикулярного вектора к вектору a
+            </summary>
+            <param name="v">Вектор, к которому строится нормаль</param>
+            <returns>Новый перпендикулярный вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.op_Addition(MiscUtils.Vectors.Vector2D,MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Adds two vectors together
+            </summary>
+            <param name="left">Вектор 1</param>
+            <param name="right">Вектор 2</param>
+            <returns>Новый суммированный вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.op_UnaryNegation(MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Изменение вектора на негативный
+            </summary>
+            <param name="v">Вектор</param>
+            <returns>Новый отрицательный вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.op_Subtraction(MiscUtils.Vectors.Vector2D,MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Разность векторов
+            </summary>
+            <param name="left">Вектор 1</param>
+            <param name="right">Вектор 2</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.op_Multiply(System.Single,MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Умножение скаляра на вектор
+            </summary>
+            <param name="left">Скаляр</param>
+            <param name="right">Вектор</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.op_Multiply(MiscUtils.Vectors.Vector2D,MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Умножение пар элементов обоих векторов
+            </summary>
+            <param name="left">Вектор 1</param>
+            <param name="right">Вектор 2</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.op_Multiply(MiscUtils.Vectors.Vector2D,System.Single)">
+            <summary>
+            Умножение вектора на скаляр
+            </summary>
+            <param name="left">Вектор</param>
+            <param name="right">Скаляр</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.op_Division(MiscUtils.Vectors.Vector2D,MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Деление первого вектора на второй вектор
+            </summary>
+            <param name="left">Вектор 1</param>
+            <param name="right">Вектор 2</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.op_Division(MiscUtils.Vectors.Vector2D,System.Single)">
+            <summary>
+            Деление вектора на скаляр
+            </summary>
+            <param name="value1">Вектор</param>
+            <param name="value2">Скаляр</param>
+            <returns>Новый вектор</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.op_Equality(MiscUtils.Vectors.Vector2D,MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Returns a value that indicates whether each pair of elements in two specified vectors is equal.
+            </summary>
+            <param name="left">Вектор 1</param>
+            <param name="right">Вектор 2</param>
+            <returns>true if left and right are equal; otherwise, false.</returns>
+        </member>
+        <member name="M:MiscUtils.Vectors.Vector2D.op_Inequality(MiscUtils.Vectors.Vector2D,MiscUtils.Vectors.Vector2D)">
+            <summary>
+            Returns a value that indicates whether two specified vectors are not equal.
+            </summary>
+            <param name="left">Вектор 1</param>
+            <param name="right">Вектор 2</param>
+            <returns>true if left and right are not equal; otherwise, false.</returns>
+        </member>
+    </members>
+</doc>
