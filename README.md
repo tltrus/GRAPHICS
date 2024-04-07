@@ -23,6 +23,12 @@ Based on: https://habr.com/ru/articles/265775/
 
 C# app with 2D Raycasting algorithm
 
+Based on: https://www.youtube.com/watch?v=TOEi6T2mtHo
+
+My Youtube: 
+
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/1e95daeb-3217-43a5-9c98-e9021ad506a9)
+
 
 
 # 2D Raycasting Maze
@@ -31,7 +37,8 @@ C# app with 2D Raycasting algorithm with Maze.
 
 Based on: https://www.youtube.com/watch?v=vYgIKn7iDH8
 
-https://youtu.be/6oELi6mzti0
+My Youtube: https://youtu.be/6oELi6mzti0
+
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/be91001a-100a-428e-bf82-8c389e0243f8)
 
 
