@@ -25,7 +25,7 @@ C# app with 2D Raycasting algorithm
 
 Based on: https://www.youtube.com/watch?v=TOEi6T2mtHo
 
-My Youtube: 
+My Youtube: https://youtu.be/4gQP1bOB66o
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/1e95daeb-3217-43a5-9c98-e9021ad506a9)
 
