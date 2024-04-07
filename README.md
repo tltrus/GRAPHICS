@@ -21,7 +21,13 @@ Based on: https://habr.com/ru/articles/265775/
 
 # 2D Raycasting
 
-C# app with 2D Raycasting algorithm.
+C# app with 2D Raycasting algorithm
+
+
+
+# 2D Raycasting Maze
+
+C# app with 2D Raycasting algorithm with Maze.
 
 Based on: https://www.youtube.com/watch?v=vYgIKn7iDH8
 
