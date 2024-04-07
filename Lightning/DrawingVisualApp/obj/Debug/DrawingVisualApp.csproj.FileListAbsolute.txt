@@ -1,0 +1,111 @@
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe.config
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\bin\Debug\DrawingVisualApp.pdb
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\MainWindow.g.cs
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\App.g.cs
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.cache
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.lref
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\MainWindow.baml
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\DrawingVisualApp.g.resources
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\DrawingVisualApp.Properties.Resources.resources
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.GenerateResource.cache
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.CoreCompileInputs.cache
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\DrawingVisualApp.exe
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\DrawingVisualApp.pdb
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\DrawingVisualApp\DrawingVisualApp\obj\Debug\DrawingVisualApp.csprojAssemblyReference.cache
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe.config
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\bin\Debug\DrawingVisualApp.pdb
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\DrawingVisualApp.csprojAssemblyReference.cache
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\MainWindow.g.cs
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\App.g.cs
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.cache
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.lref
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\MainWindow.baml
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\DrawingVisualApp.g.resources
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\DrawingVisualApp.Properties.Resources.resources
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.GenerateResource.cache
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.CoreCompileInputs.cache
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\DrawingVisualApp.exe
+C:\Rus\rexerv\Временно\_C#\_Тесты\_ГРАФИКА 2D и 3D\2D\WpfDrawingVisual - StarField. Coding Challenge 1\DrawingVisualApp\obj\Debug\DrawingVisualApp.pdb
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.csprojAssemblyReference.cache
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\MainWindow.g.cs
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\App.g.cs
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.cache
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.lref
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.exe
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.pdb
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe.config
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\bin\Debug\DrawingVisualApp.pdb
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\bin\Debug\MyNumerics.pdb
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\bin\Debug\MyNumerics.xml
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\bin\Debug\VectorOperation.pdb
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\bin\Debug\VectorOperation.xml
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\MainWindow.baml
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.g.resources
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.Properties.Resources.resources
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.GenerateResource.cache
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.CoreCompileInputs.cache
+C:\Rus\rexerv\Временно\_C#\_Программы всякие\_2D 3D ГРАФИКА\2D\CodeChallenge #145 - 2D Raycasting DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.CopyComplete
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe.config
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\bin\Debug\DrawingVisualApp.pdb
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\bin\Debug\MiscUtils.dll
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\bin\Debug\MiscUtils.pdb
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\DrawingVisualApp.csprojAssemblyReference.cache
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\MainWindow.g.cs
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\App.g.cs
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.cache
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.lref
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\MainWindow.baml
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\DrawingVisualApp.g.resources
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\DrawingVisualApp.Properties.Resources.resources
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.GenerateResource.cache
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.CoreCompileInputs.cache
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.CopyComplete
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\DrawingVisualApp.exe
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual IN PROGRESS\DrawingVisualApp\obj\Debug\DrawingVisualApp.pdb
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe.config
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\bin\Debug\DrawingVisualApp.pdb
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\bin\Debug\MiscUtils.dll
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\bin\Debug\MiscUtils.pdb
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.csprojAssemblyReference.cache
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\MainWindow.g.cs
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\App.g.cs
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.cache
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.lref
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\MainWindow.baml
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.g.resources
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.Properties.Resources.resources
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.GenerateResource.cache
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.CoreCompileInputs.cache
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.CopyComplete
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.exe
+C:\Rus\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.pdb
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe.config
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\bin\Debug\DrawingVisualApp.pdb
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\bin\Debug\MiscUtils.dll
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\bin\Debug\MiscUtils.pdb
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\bin\Debug\MiscUtils.xml
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.AssemblyReference.cache
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\MainWindow.g.cs
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\App.g.cs
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.cache
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.lref
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\MainWindow.baml
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.g.resources
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.Properties.Resources.resources
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.GenerateResource.cache
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.CoreCompileInputs.cache
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.CopyComplete
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.exe
+D:\YandexDisk\YandexDisk\rexerv\Временно\C#\_Программы всякие\_2D 3D ГРАФИКА\2D\Lightning - DrawVisual\DrawingVisualApp\obj\Debug\DrawingVisualApp.pdb
