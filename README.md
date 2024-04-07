@@ -56,6 +56,13 @@ C# App with Bilinear interpolation algorithm
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/1165af5a-f9f7-4dcd-8533-b1862251e4df)
 
 
+# Display pixels
+
+C# app for display pixels reading and writing
+
+https://youtu.be/qcvYTXIjuKs
+
+
 # Lightning
 
 C# Lightning algorithm
