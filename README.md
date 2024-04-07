@@ -58,7 +58,8 @@ C# App with Bilinear interpolation algorithm
 
 # Display pixels
 
-C# app for display pixels reading and writing
+C# app for display pixels reading and writing.
+Hook is using for mouse and display.
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/a2b9720d-430a-4a6d-ad0d-9aa89ee3ae61)
 
