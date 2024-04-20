@@ -76,7 +76,7 @@ My Youtube: https://youtu.be/bcfwHQHY09o
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/36106cab-8c89-4014-bea5-817d08dfe7ef)
 
 
-# StarField
+# StarsField
 
 C# stars moving
 
