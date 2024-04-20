@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DrawingVisualApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="729" Width="1036">
+        Title="Stars field" Height="729" Width="1036">
     <Grid>
         <local:DrawingVisualClass x:Name="g" Background="Black" Height="690" Width="1030" Margin="0,0,0,0" MouseMove="g_MouseMove" />
     </Grid>

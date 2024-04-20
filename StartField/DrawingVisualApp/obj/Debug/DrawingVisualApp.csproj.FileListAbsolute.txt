@@ -1,0 +1,16 @@
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe.config
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\bin\Debug\DrawingVisualApp.exe
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\bin\Debug\DrawingVisualApp.pdb
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.AssemblyReference.cache
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\MainWindow.g.cs
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\App.g.cs
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.cache
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\DrawingVisualApp_MarkupCompile.lref
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\MainWindow.baml
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\DrawingVisualApp.g.resources
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\DrawingVisualApp.Properties.Resources.resources
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.GenerateResource.cache
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\DrawingVisualApp.csproj.CoreCompileInputs.cache
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\DrawingVisualApp.exe
+D:\YandexDisk\YandexDisk\rexerv\Временно\For Github\GRAPHICS\StartField\DrawingVisualApp\obj\Debug\DrawingVisualApp.pdb
