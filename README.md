@@ -86,3 +86,15 @@ My Youtube: https://youtu.be/TUh8ut2SW9E
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/2c686e1e-da7b-4f47-bd01-faee7d0f8792)
 
+
+# PurpleRain
+
+C# rain falling
+
+Based on: https://thecodingtrain.com/challenges/4-purple-rain
+
+My Youtube:
+
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/da5b5a14-b4aa-45a0-b0dc-fea31645f7ea)
+
+
