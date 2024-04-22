@@ -104,5 +104,8 @@ C# algorithm for bitmap
 
 Based on: https://thecodingtrain.com/challenges/c4-worley-noise
 
+**1.Slow** - very slow solution, because **SetPixel** is used.
+**2.Normal** - in progress, the code with optimization to speed up the drawing
+
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/8588b3c0-9d31-4bb4-b6df-28fb6c640b1a)
 
