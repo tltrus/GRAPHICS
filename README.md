@@ -98,3 +98,11 @@ My Youtube: https://youtu.be/wTYv7szmCls
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/da5b5a14-b4aa-45a0-b0dc-fea31645f7ea)
 
 
+# WorleyNoise
+
+C# algorithm for bitmap
+
+Based on: https://thecodingtrain.com/challenges/c4-worley-noise
+
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/8588b3c0-9d31-4bb4-b6df-28fb6c640b1a)
+
