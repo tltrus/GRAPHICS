@@ -115,6 +115,12 @@ Based on: https://thecodingtrain.com/challenges/c4-worley-noise
 
 C# algorithm for bitmap. It's a very slow solution, because **SetPixel** is used.
 
+Water Ripples based on: https://thecodingtrain.com/challenges/102-2d-water-ripple
+
+Metaballs based on: https://thecodingtrain.com/challenges/28-metaballs
+
+My Youtube: https://youtu.be/kPUXaXYmjLk
+
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/4788a256-90c3-4bf1-8980-6c21a7b8e3d1)
 
 
