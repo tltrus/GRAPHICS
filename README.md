@@ -62,7 +62,7 @@ C# figure transformation algorithm
 
 Based on: Circle Morphing https://thecodingtrain.com/challenges/81-circle-morphing
 
-MyYoutube: 
+MyYoutube: https://youtu.be/T5kDKEEiyzo
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/829c951e-1f35-400f-88f5-ff82b876848e)
 
@@ -82,7 +82,7 @@ C# bitmap fire algorithm.
 
 Based on: Fire Effect https://thecodingtrain.com/challenges/103-fire-effect
 
-My Youtube:
+My Youtube: https://youtu.be/T5kDKEEiyzo
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/568f556e-d4ae-49ea-a6a6-f636fd4fe27a)
 
@@ -130,6 +130,8 @@ Based on: https://thecodingtrain.com/challenges/c4-worley-noise
 **1.Slow** - very slow solution, because **SetPixel** is used.
 
 **2.Normal** - in progress, the code with optimization to speed up the drawing
+
+My Youtube: https://youtu.be/T5kDKEEiyzo
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/8588b3c0-9d31-4bb4-b6df-28fb6c640b1a)
 
