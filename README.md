@@ -56,6 +56,18 @@ C# App with Bilinear interpolation algorithm
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/1165af5a-f9f7-4dcd-8533-b1862251e4df)
 
 
+# CircleMorphing
+
+C# figure transformation algorithm
+
+Based on: Circle Morphing https://thecodingtrain.com/challenges/81-circle-morphing
+
+MyYoutube: 
+
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/829c951e-1f35-400f-88f5-ff82b876848e)
+
+
+
 # Display pixels
 
 C# app for display pixels reading and writing.
