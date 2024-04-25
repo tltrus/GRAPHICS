@@ -76,6 +76,17 @@ Hook is using for mouse and display.
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/a2b9720d-430a-4a6d-ad0d-9aa89ee3ae61)
 
 
+# FireEffect
+
+C# bitmap fire algorithm.
+
+Based on: Fire Effect https://thecodingtrain.com/challenges/103-fire-effect
+
+My Youtube:
+
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/568f556e-d4ae-49ea-a6a6-f636fd4fe27a)
+
+
 
 # Lightning
 
