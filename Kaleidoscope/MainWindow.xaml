@@ -1,0 +1,12 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="Kaleidoscope. Press mouse button to draw" Height="572.681" Width="713.084">
+    <Grid>
+        <Image Name="g" HorizontalAlignment="Left" Height="520" Margin="5" VerticalAlignment="Top" Width="680" MouseMove="g_MouseMove" />
+    </Grid>
+</Window>
