@@ -87,6 +87,12 @@ My Youtube: https://youtu.be/T5kDKEEiyzo
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/568f556e-d4ae-49ea-a6a6-f636fd4fe27a)
 
 
+# Kaleidoscope
+
+Based on: https://thecodingtrain.com/challenges/155-kaleidoscope-snowflake
+
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/179fde70-f3aa-48c8-a26a-787ac36fcef2)
+
 
 # Lightning
 
