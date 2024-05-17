@@ -89,6 +89,8 @@ My Youtube: https://youtu.be/T5kDKEEiyzo
 
 # Kaleidoscope
 
+C# algorithm
+
 Based on: https://thecodingtrain.com/challenges/155-kaleidoscope-snowflake
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/179fde70-f3aa-48c8-a26a-787ac36fcef2)
