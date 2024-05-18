@@ -27,7 +27,7 @@ Based on: https://www.youtube.com/watch?v=TOEi6T2mtHo
 
 My Youtube: https://youtu.be/4gQP1bOB66o
 
-<img src="https://github.com/tltrus/GRAPHICS/assets/77125487/1e95daeb-3217-43a5-9c98-e9021ad506a9)" width="400" />
+<img src="https://github.com/tltrus/GRAPHICS/assets/77125487/1e95daeb-3217-43a5-9c98-e9021ad506a9)" width="500" />
 
 
 
