@@ -73,10 +73,9 @@ C# algorithm
 
 Based on Coding Challenge #13 — Reaction Diffusion Algorithm https://thecodingtrain.com/challenges/13-reaction-diffusion
 
-My Youtube: 
+My Youtube: https://youtu.be/N2iMtkRM2zY
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/58ae031f-e987-44b9-99f0-a83278aa3cfb)
-
 
 
 # Display pixels
