@@ -67,6 +67,17 @@ MyYoutube: https://youtu.be/T5kDKEEiyzo
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/829c951e-1f35-400f-88f5-ff82b876848e)
 
 
+# Diffuse
+
+C# algorithm
+
+Based on Coding Challenge #13 — Reaction Diffusion Algorithm https://thecodingtrain.com/challenges/13-reaction-diffusion
+
+My Youtube: 
+
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/58ae031f-e987-44b9-99f0-a83278aa3cfb)
+
+
 
 # Display pixels
 
