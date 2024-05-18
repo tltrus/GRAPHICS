@@ -123,10 +123,10 @@ namespace Diffuse
                             pBackBuffer += x * 4;
 
                             // {B, G, R, Apha}
-                            int ass = BitConverter.ToInt32(new byte[] { color, color, color, 255 }, 0);
+                            int color = BitConverter.ToInt32(new byte[] { color, color, color, 255 }, 0);
 
                             // Assign the color data to the pixel.
-                            *((int*)pBackBuffer) = ass;
+                            *((int*)pBackBuffer) = color;
                         }
 
                         // Specify the area of the bitmap that changed.
