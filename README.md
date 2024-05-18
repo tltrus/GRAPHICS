@@ -27,8 +27,7 @@ Based on: https://www.youtube.com/watch?v=TOEi6T2mtHo
 
 My Youtube: https://youtu.be/4gQP1bOB66o
 
-<img src="https://github.com/tltrus/GRAPHICS/assets/77125487/1e95daeb-3217-43a5-9c98-e9021ad506a9)" width="500" />
-
+<img src="https://github.com/tltrus/GRAPHICS/assets/77125487/1e95daeb-3217-43a5-9c98-e9021ad506a9" width="500" />
 
 
 # 2D Raycasting Maze
@@ -39,7 +38,7 @@ Based on: https://www.youtube.com/watch?v=vYgIKn7iDH8
 
 My Youtube: https://youtu.be/6oELi6mzti0
 
-![image](https://github.com/tltrus/GRAPHICS/assets/77125487/be91001a-100a-428e-bf82-8c389e0243f8)
+<img src="https://github.com/tltrus/GRAPHICS/assets/77125487/be91001a-100a-428e-bf82-8c389e0243f8" width="500" />
 
 
 # algorithm-Brezenhem
@@ -116,7 +115,7 @@ Based on https://drilian.com/2009/02/25/lightning-bolts/
 
 My Youtube: https://youtu.be/bcfwHQHY09o
 
-![image](https://github.com/tltrus/GRAPHICS/assets/77125487/36106cab-8c89-4014-bea5-817d08dfe7ef)
+<img src="https://github.com/tltrus/GRAPHICS/assets/77125487/36106cab-8c89-4014-bea5-817d08dfe7ef" width="500" />
 
 
 # StarsField
