@@ -118,6 +118,16 @@ My Youtube: https://youtu.be/bcfwHQHY09o
 <img src="https://github.com/tltrus/GRAPHICS/assets/77125487/36106cab-8c89-4014-bea5-817d08dfe7ef" width="500" />
 
 
+# Polar-PerlinNoise
+
+Based on "#136 — Polar Noise Loops" https://thecodingtrain.com/challenges/136-polar-noise-loops
+
+My Youtube: https://youtu.be/a-xpX_Wq3ac
+
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/4d1205b0-3ee4-4e6a-85a0-61a0cb9390ab)
+
+
+
 # StarsField
 
 C# stars moving
