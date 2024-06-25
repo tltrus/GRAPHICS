@@ -118,6 +118,18 @@ My Youtube: https://youtu.be/bcfwHQHY09o
 <img src="https://github.com/tltrus/GRAPHICS/assets/77125487/36106cab-8c89-4014-bea5-817d08dfe7ef" width="500" />
 
 
+# MarchingSquares
+
+C# algorithm
+
+Based on #C5 — Marching Squares - https://thecodingtrain.com/challenges/c5-marching-squares
+
+My Youtube:
+
+![image](https://github.com/tltrus/GRAPHICS/assets/77125487/a4d91518-33b1-44bc-93ab-d71f9d4cbc1a)
+
+
+
 # Polar-PerlinNoise
 
 Based on "#136 — Polar Noise Loops" https://thecodingtrain.com/challenges/136-polar-noise-loops
