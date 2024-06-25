@@ -124,7 +124,7 @@ C# algorithm
 
 Based on #C5 — Marching Squares - https://thecodingtrain.com/challenges/c5-marching-squares
 
-My Youtube:
+My Youtube: https://youtu.be/eBauEvDM2A8
 
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/a4d91518-33b1-44bc-93ab-d71f9d4cbc1a)
 
