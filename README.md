@@ -55,6 +55,17 @@ C# App with Bilinear interpolation algorithm
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/1165af5a-f9f7-4dcd-8533-b1862251e4df)
 
 
+# CircleParking
+
+C#
+
+Based on: #50 — Circle Packing https://thecodingtrain.com/challenges/50-animated-circle-packing
+
+MyYoutube: 
+
+![image](https://github.com/user-attachments/assets/c852e905-9c38-495f-89f0-a5e23fd4ea7f)
+
+
 # CircleMorphing
 
 C# figure transformation algorithm
