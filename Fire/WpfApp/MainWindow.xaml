@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="Fire" Height="270" Width="654">
+    <Grid>
+        <StackPanel>
+            <WrapPanel Margin="5">
+                <StackPanel>
+                    <Label Content="Fire" />
+                    <Image Name="g" Margin="5" Height="150" VerticalAlignment="Top" MouseUp="g_MouseUp" HorizontalAlignment="Left" Width="300"/>
+                </StackPanel>
+                <StackPanel>
+                    <WrapPanel>
+                        <Label Content="Cooling" />
+                        <CheckBox Name="cbCooling" VerticalAlignment="Center"/>
+                    </WrapPanel>
+                    
+                    <Image Name="g2" Margin="5" Height="150" VerticalAlignment="Top" MouseUp="g_MouseUp" HorizontalAlignment="Left" Width="300"/>
+                </StackPanel>
+            </WrapPanel>
+        </StackPanel>
+
+
+    </Grid>
+</Window>
