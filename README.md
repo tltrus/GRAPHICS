@@ -107,6 +107,15 @@ My Youtube: https://youtu.be/T5kDKEEiyzo
 ![image](https://github.com/tltrus/GRAPHICS/assets/77125487/568f556e-d4ae-49ea-a6a6-f636fd4fe27a)
 
 
+# Fire
+
+C# bitmap fire algorithm.
+
+My Youtube: 
+
+![image](https://github.com/user-attachments/assets/0bbbce5c-8c83-4634-b1f2-5d0665dc374e)
+
+
 # Kaleidoscope
 
 C# algorithm
