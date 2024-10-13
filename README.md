@@ -52,7 +52,7 @@ Two C# applications inside https://github.com/tltrus/GRAPHICS/tree/main/Bezier-c
 - Bézier
 - Bézier+DeCasteljo
 
-Youtube:
+Youtube: https://youtu.be/WJP1lTRcKGA
 
 ![image](https://github.com/user-attachments/assets/f5edd63f-5969-43c8-8753-83f1cbe0d480)
 
