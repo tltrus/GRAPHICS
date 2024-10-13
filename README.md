@@ -48,7 +48,7 @@ C# App with Brezenhem algorithm
 
 # Bezier curves
 
-Two C# applications inside:
+Two C# applications inside https://github.com/tltrus/GRAPHICS/tree/main/Bezier-curves:
 - Bézier
 - Bézier+DeCasteljo
 
