@@ -1,0 +1,18 @@
+﻿<Window x:Class="DrawingVisualApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DrawingVisualApp"
+        mc:Ignorable="d"
+        Title="Bézier curve + DeCasteljo method" Height="496" Width="631" MouseLeftButtonDown="Window_MouseLeftButtonDown" MouseLeftButtonUp="Window_MouseLeftButtonUp">
+    <Grid>
+        <StackPanel>
+            <WrapPanel Margin="5">
+                <CheckBox x:Name="cbBezier" Content="Bezier curve" Margin="5" IsChecked="True" Click="CheckBox_Click" />
+                <CheckBox x:Name="cbDeCasteljo" Content="DeCasteljo method" Margin="5" Click="CheckBox_Click"/>
+            </WrapPanel>
+            <local:DrawingVisualClass x:Name="g" Background="Black" Height="421" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center" Width="607" MouseMove="g_MouseMove"/>
+        </StackPanel>
+    </Grid>
+</Window>
